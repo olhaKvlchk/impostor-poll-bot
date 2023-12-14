@@ -18,4 +18,5 @@ const create_poll = () => {
 
 schedule.scheduleJob('15 16 * * 4', create_poll);
 
+console.log("I'm running!");
 bot.launch();

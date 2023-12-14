@@ -1,5 +1,17 @@
 {
-	"build": "npm run build",
+	"version": 2,
+	"builds": [
+		{
+			"src": "./index.js",
+			"use": "@vercel/node"
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "/"
+		}
+	],
 	"target": "node16",
 	"env": {
 		"NODE_ENV": "production"
