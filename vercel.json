@@ -1,0 +1,7 @@
+{
+	"build": "npm run build",
+	"target": "node16",
+	"env": {
+		"NODE_ENV": "production"
+	}
+}
